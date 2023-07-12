@@ -1,19 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-YHZKZ8TB6S"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
-
-      gtag('config', 'G-YHZKZ8TB6S');
-    </script>
     <title>Flight Simulator</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <script src="scripts.js"></script>
@@ -32,13 +19,14 @@
         <h3>Astronaut Chat</h3>
         <p>Houston, we are ready when you are!</p>
       </div>
-      <div id="shuttleBackground" style="height: 80%; width: 40%">
+      <div id="shuttleBackground">
         <img
           src="LaunchCode_rocketline_white.png"
           height="75"
           width="75"
           id="rocket"
-          style="position: absolute; bottom: 0; left: calc(50% - 38px)" />
+          style="position: absolute; bottom: 0; left: calc(50% - 38px)"
+        />
       </div>
       <div class="center-block">
         <button id="up">Up</button>
